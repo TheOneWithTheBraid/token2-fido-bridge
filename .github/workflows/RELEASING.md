@@ -32,8 +32,3 @@ so the changelog version is derived from the git tag:
 Settings -> Actions -> General -> Workflow permissions ->
 "Read and write permissions". Without this the release upload fails.
 
-## Adding arm64 builds
-Cross-building .debs for arm64 needs either QEMU emulation or a native
-arm64 runner. Simplest path: add a job using `uraimo/run-on-arch-action`
-or build in an arm64 container. For most smartcard desktop users amd64 is
-sufficient to start.
