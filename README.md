@@ -49,7 +49,7 @@ project has none of that: install the `.deb`, and it just runs.
 - Faithful CTAP-HID transport and CTAP2-over-ISO7816 APDU handling
 - Configurable USB VID/PID (flags, env vars, or build-time defaults)
 - Ships a systemd service, udev rule, and `uhid` module auto-load
-- `.deb`, `.rpm`, and one-line installer
+- `.deb` (including ARM version), `.rpm`, and one-line installer
 
 ## Requirements
 
